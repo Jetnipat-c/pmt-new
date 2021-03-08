@@ -15,7 +15,7 @@ const Signup = () => {
                   <p className="email">E-mail</p>
                 </div>
                 <div>
-                  <input type="text" />
+                  <input type="text" placeholder="example@hotmail.com" />
                 </div>
               </div>
             </div>
@@ -25,7 +25,7 @@ const Signup = () => {
                   <p>Username</p>
                 </div>
                 <div>
-                  <input type="text" />
+                  <input type="text" placeholder="example_username" />
                 </div>
               </div>
             </div>
@@ -35,7 +35,7 @@ const Signup = () => {
                   <p>Password</p>
                 </div>
                 <div>
-                  <input type="password" />
+                  <input type="password" placeholder="Create password" />
                 </div>
               </div>
             </div>

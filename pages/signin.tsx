@@ -15,7 +15,7 @@ const Signin = () => {
                   <p>Username</p>
                 </div>
                 <div>
-                  <input type="text" />
+                  <input type="text" placeholder="E-mail, username" />
                 </div>
               </div>
             </div>
@@ -25,7 +25,7 @@ const Signin = () => {
                   <p>Password</p>
                 </div>
                 <div>
-                  <input type="password" />
+                  <input type="password" placeholder="*****" />
                 </div>
               </div>
             </div>
