@@ -3,7 +3,7 @@ const StyleWrapper = styled.div`
   .container {
     display: grid;
     grid-template:
-      "header header" 1fr
+      "header header" 50px
       "sidebar main" 90vh
       "footer footer" 40px
       / 300px 3fr;
@@ -17,10 +17,10 @@ const StyleWrapper = styled.div`
   }
   .header {
     background: var(--light_gray);
-    //grid-area: header;
+    grid-area: header;
     color: var(--white);
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   .main {
     background: var(--white);
@@ -79,7 +79,7 @@ const StyleWrapper = styled.div`
     .container {
       display: grid;
       grid-template:
-        "header" 1fr
+        "header" 70px
         "sidebar" auto
         "main" 90vh
         "footer" 1fr
@@ -95,7 +95,7 @@ const StyleWrapper = styled.div`
       font-size: 2rem;
     }
     .footer {
-      font-size: 1.3rem;
+      font-size: 1rem;
     }
   }
 `;

@@ -6,21 +6,16 @@ const Layouts = (props) => {
       <StyleWrapper>
         <div className="container">
           <div className="header">
-            <div className="sub-header-grid">
-              <div className="sub-items">
-                <div className="logo">
-                  <i className="fa fa-glass logo" aria-hidden="true"></i>
-                  Patthotech
-                </div>
-              </div>
-              <div className="sub-item">
-                <div className="user">username</div>
-              </div>
-            </div>
+            <i className="fa fa-glass logo" aria-hidden="true"></i>
+            Patthotech
           </div>
           <div className="main">{props.children}</div>
           <div className="sidebar">
             <div className="menu-sidebar-grid">
+              <div className="grid-item">
+                <i className="fa fa-user-circle logo" aria-hidden="true"></i>
+                username
+              </div>
               <div className="grid-item">
                 <i className="fa fa-home logo" aria-hidden="true"></i>หน้าแรก
               </div>
