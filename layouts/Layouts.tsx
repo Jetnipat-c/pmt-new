@@ -4,8 +4,12 @@ const Layouts = (props) => {
   return (
     <React.Fragment>
       <StyleWrapper>
-        <p>Layout</p>
-        {props.children}
+        <div className="container">
+          <div className="header">header</div>
+          <div className="main">main{props.children}</div>
+          <div className="sidebar">sidebar</div>
+          <div className="footer">footer</div>
+        </div>
       </StyleWrapper>
     </React.Fragment>
   );
