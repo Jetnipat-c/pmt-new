@@ -11,10 +11,11 @@ const GlobalStyle = createGlobalStyle`
     font-family: "Prompt", sans-serif;
   }
   :root {
-  --red: #e2071b;
-  --blue: #212554;
-  --white: #fff;
-  --gray: #777;
+  --white: #F7F6F8;
+  --light_blue: #95A8BC;
+  --light_gray: #A7A4B3;
+  --light_purple: #8C8BA1;
+  --purple: #56536C;
   }
 `;
 

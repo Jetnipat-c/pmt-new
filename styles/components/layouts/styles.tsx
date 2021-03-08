@@ -16,19 +16,20 @@ const StyleWrapper = styled.div`
     padding: 10px;
   }
   .header {
-    background: #8cc152;
+    background: var(--light_gray);
     grid-area: header;
   }
   .main {
-    background: #f6bb42;
+    background: var(--white);
     grid-area: main;
+    //border-top: 1px solid var(--light_purple);
   }
   .sidebar {
-    background: #e9573f;
+    background: var(--purple);
     grid-area: sidebar;
   }
   .footer {
-    background: #d770ad;
+    background: var(--light_purple);
     grid-area: footer;
   }
   @media only screen and (max-width: 425px) {
@@ -40,7 +41,7 @@ const StyleWrapper = styled.div`
         "main" 90vh
         "footer" 1fr
         / 1fr;
-      grid-gap: 10px;
+      //grid-gap: 10px;
       color: #fff;
       font-weight: bold;
       text-align: center;
