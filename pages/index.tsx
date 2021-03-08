@@ -1,10 +1,9 @@
-import StyleWrapper from "../styles/components/index/styles"
+import StyleWrapper from "../styles/components/index/styles";
+import Homepage from "./homepage";
 export default function Home() {
   return (
     <StyleWrapper>
-      <div className="header">
-        setup project
-      </div>
+      <Homepage />
     </StyleWrapper>
   );
 }

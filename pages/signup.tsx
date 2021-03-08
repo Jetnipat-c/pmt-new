@@ -43,7 +43,7 @@ const Signup = () => {
               <button>Signin</button>
             </div>
             <div>
-              <a href="#">Signin</a>
+              <a href="/signin">Signin</a>
             </div>
           </div>
         </div>

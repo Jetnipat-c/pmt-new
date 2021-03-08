@@ -28,6 +28,7 @@ const StyleWrapper = styled.div`
     width: 100%;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 1rem;
   }
   .container-input > div {
     margin-right: 0.5rem;
@@ -58,6 +59,15 @@ const StyleWrapper = styled.div`
   }
   p {
     width: 76px;
+  }
+  h1 {
+    margin-top: 1rem;
+  }
+  button {
+    //margin: 1rem 0;
+  }
+  .container-input div p {
+    margin-bottom: 0;
   }
 `;
 export default StyleWrapper;
