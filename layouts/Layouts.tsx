@@ -1,6 +1,17 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import Router from "next/router";
+import { Tag } from "antd";
 import StyleWrapper from "../styles/components/layouts/styles";
 const Layouts = (props) => {
+  const [username, setUsername] = useState("");
+  useEffect(() => {
+    setUsername(JSON.parse(localStorage.getItem("account")).username);
+  }, []);
+  const logout = async () => {
+    localStorage.removeItem("token");
+    localStorage.removeItem("account");
+    Router.reload();
+  };
   return (
     <React.Fragment>
       <StyleWrapper>
@@ -14,7 +25,7 @@ const Layouts = (props) => {
             <div className="menu-sidebar-grid">
               <div className="grid-item">
                 <i className="fa fa-user-circle logo" aria-hidden="true"></i>
-                username
+                <Tag color="blue">username : {username}</Tag>
               </div>
               <div className="grid-item">
                 <i className="fa fa-home logo" aria-hidden="true"></i>หน้าแรก
@@ -45,7 +56,7 @@ const Layouts = (props) => {
                 <i className="fa fa-tags logo" aria-hidden="true"></i>
                 ตรวจเช็คกระจก
               </div>
-              <div className="grid-item">
+              <div className="grid-item" onClick={logout}>
                 <i className="fa fa-sign-out logo" aria-hidden="true"></i>
                 ออกจากระบบ
               </div>

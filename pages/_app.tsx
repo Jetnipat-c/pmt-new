@@ -16,6 +16,7 @@ const GlobalStyle = createGlobalStyle`
   --light_gray: #A7A4B3;
   --light_purple: #8C8BA1;
   --purple: #56536C;
+  --black: #001529;
   }
 `;
 

@@ -16,7 +16,7 @@ const StyleWrapper = styled.div`
     padding: 10px;
   }
   .header {
-    background: var(--light_gray);
+    background: var(--black);
     grid-area: header;
     color: var(--white);
     text-align: center;
@@ -29,7 +29,7 @@ const StyleWrapper = styled.div`
     color: #9e9e9e;
   }
   .sidebar {
-    background: var(--purple);
+    background: var(--black);
     grid-area: sidebar;
     text-align: left;
   }
@@ -40,7 +40,7 @@ const StyleWrapper = styled.div`
     margin-left: 2rem;
   }
   .footer {
-    background: var(--light_purple);
+    background: var(--black);
     grid-area: footer;
     color: #fff;
     font-size: 1rem;
