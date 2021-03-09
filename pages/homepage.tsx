@@ -374,4 +374,5 @@ const Homepage = () => {
     </React.Fragment>
   );
 };
-export default withAuth(Homepage);
+//export default withAuth(Homepage);
+export default Homepage;
